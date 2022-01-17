@@ -7,8 +7,23 @@
     <title>Timed Quiz</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <p class="high-scores">View High Scores</p>
+      <div id="timer"></div>
+    </header>
+    <main>
+      <h1>JavaScript Quiz</h1>
+      <div class="quiz-container" id="quiz-container"></div>
+      <p class="quiz-intro" id="quiz-intro">
+        This quiz will test your knowledge on JavaScript. A timer will begin
+        once you press the button. Each incorrect answer will reduce your time.
+        Your time left at the end of the quiz will be your score for the quiz.
+        Good luck!
+      </p>
+      <button class="btn" id="begin-quiz">Begin</button>
+    </main>
     <footer></footer>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
